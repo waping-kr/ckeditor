@@ -3,11 +3,15 @@ Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 
+* {
+	font-family: Toss Product Sans, Tossface, SF Pro KR, SF Pro Display, SF Pro Icons, -apple-system, BlinkMacSystemFont, Basier Square, Apple SD Gothic Neo, Roboto, Noto Sans KR, Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
 body
 {
 	/* Font */
 	/* Emoji fonts are added to visualise them nicely in Internet Explorer. */
-	font-family: sans-serif, Arial, Verdana, "Trebuchet MS", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: Toss Product Sans, Tossface, SF Pro KR, SF Pro Display, SF Pro Icons, -apple-system, BlinkMacSystemFont, Basier Square, Apple SD Gothic Neo, Roboto, Noto Sans KR, Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 	font-size: 12px;
 
 	/* Text color */
@@ -31,7 +35,6 @@ body
 blockquote
 {
 	font-style: italic;
-	font-family: Georgia, Times, "Times New Roman", serif;
 	padding: 2px 0;
 	border-style: solid;
 	border-color: #ccc;
